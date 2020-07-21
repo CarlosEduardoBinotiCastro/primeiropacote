@@ -1,0 +1,30 @@
+{
+    "name": "carlosbinoti/primeiropacote",
+    "description": "Pacote com finalidade de estudo",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Carlos Eduardo Binoti de Castro",
+            "email": "eduardbinoti@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Carlosbinoti\\primeiropacote\\": "./"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Carlosbinoti\\primeiropacote\\": "./"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Carlosbinoti\\primeiropacote\\Providers\\PrimeiroPacoteProvider"
+            ]
+        }
+    }
+}
